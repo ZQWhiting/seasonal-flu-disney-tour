@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/images/Disneyland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 42%;
+  min-height: 100vh;
+  background-color: #b8b8bb;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(./assets/images/Disneyland-small.jpg);
+  }
 }
