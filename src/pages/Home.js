@@ -1,5 +1,4 @@
 import { VideoLink } from '../components/Video';
-import './Home.css';
 import ridesData from '../assets/rides';
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
 		<div className='flex container'>
 			{ridesData.map(({ id, name }) => (
 				<div key={id}>
-					<h2 className='title'>{name}</h2>
+					<h2 className='thumbnail-title'>{name}</h2>
 					<VideoLink id={id} />
 				</div>
 			))}

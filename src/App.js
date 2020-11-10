@@ -7,7 +7,7 @@ function App() {
 		<Router>
 			<Switch>
 				<Route exact path='/' component={Home} />
-				<Route exact path='/ride/:ride' component={Ride} />
+				<Route exact path='/ride/:id' component={Ride} />
 				<Route component={() => <div>404 Not Found</div>} />
 			</Switch>
 		</Router>
