@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Ride from './pages/Ride';
 
 function App() {
-  return (
+	return (
 		<Router>
 			<Switch>
 				<Route exact path='/' component={Home} />
@@ -11,7 +11,7 @@ function App() {
 				<Route component={() => <div>404 Not Found</div>} />
 			</Switch>
 		</Router>
-  );
+	);
 }
 
 export default App;
