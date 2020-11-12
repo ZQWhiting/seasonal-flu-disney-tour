@@ -73,3 +73,19 @@ code {
     background-repeat: round;
   }
 }
+
+@media only screen and (hover: none) and (orientation: portrait) and (max-width: 768px) {
+  body {
+    background-image: url(./assets/images/Disneyland-small.jpg);
+    background-size: contain;
+    background-repeat: round;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(./assets/images/Disneyland-small.jpg);
+    background-size: contain;
+    background-repeat: round;
+  }
+}
