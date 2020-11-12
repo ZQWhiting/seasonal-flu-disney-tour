@@ -1,5 +1,6 @@
 html {
   min-height: 100vh;
+  text-shadow: 1px 1px 1px white, -1px -1px 1px white;
 }
 
 body {
@@ -19,9 +20,16 @@ code {
     monospace;
 }
 
+header {
+  padding: 1em;
+}
+
+a {
+  color: black;
+}
+
 .container {
   margin: 5vh 5vw;
-  overflow: auto;
 }
 
 .flex {
@@ -36,6 +44,10 @@ code {
   height: 80vh;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .item-margin {
   margin: 10px;
 }
@@ -47,10 +59,15 @@ code {
   padding: 0 1em;
   left: 10px;
   background: black;
+  text-shadow: 1px 1px 1px white
 }
 
 .img-width {
   width: 100%;
+}
+
+.inline {
+  display: inline-block;
 }
 
 .video {
@@ -70,11 +87,20 @@ code {
 }
 
 .pb-5 {
-  padding-bottom: 2em;
+  padding-bottom: 5em;
+}
+
+.mb-5 {
+  margin-bottom: 5em;
 }
 
 .align-right {
   text-align: right;
+}
+
+.position-right {
+  display: relative;
+  right: 0;
 }
 
 .select-hover:hover {

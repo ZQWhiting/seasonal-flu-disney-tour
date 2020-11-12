@@ -8,10 +8,13 @@ function Ride() {
 	const { name } = ridesData.find((ride) => ride.id === id);
 	return (
 		<div className='container'>
-			<Link to='/'>
-				<p className='align-right select-hover'>Back to Home</p>
+			<h1 className=''>{name} </h1>
+			<Link to='/' className='inline'>
+				<p className='align-right select-hover pb-5 mb-5'>
+					Back to Home
+				</p>
 			</Link>
-			<h1 className='pb-5'>{name}</h1>
+
 			<div className='flex align-column'>
 				<div className='video'>
 					<Video id={id} />
