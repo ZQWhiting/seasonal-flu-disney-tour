@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Disney';
+  src: url('./assets/fonts/waltographUI.ttf')
+}
+
 html {
   min-height: 100vh;
   text-shadow: 1px 1px 1px white, -1px -1px 1px white;
@@ -5,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Disney -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,6 +27,7 @@ code {
 
 header {
   padding: 1em;
+  font-family: Disney;
 }
 
 a {
@@ -48,18 +54,13 @@ a {
   text-align: center;
 }
 
-.item-margin {
-  margin: 10px;
-}
-
 .thumbnail-title {
   color: white;
   position: relative;
   top: 50px;
   padding: 0 1em;
-  left: 10px;
   background: black;
-  text-shadow: 1px 1px 1px white
+  text-shadow: none;
 }
 
 .img-width {

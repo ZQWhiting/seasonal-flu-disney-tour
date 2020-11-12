@@ -16,7 +16,7 @@ function Video({ id }) {
 function VideoLink({ id, name }) {
 	return (
 		<>
-			<Link to={`/ride/${id}`} className='item-margin'>
+			<Link to={`/ride/${id}`}>
 				<img
 					src={`https://img.youtube.com/vi/${id}/0.jpg`}
 					alt={`${name}`}
