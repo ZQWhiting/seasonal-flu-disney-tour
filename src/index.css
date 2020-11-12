@@ -73,6 +73,15 @@ code {
   padding-bottom: 2em;
 }
 
+.align-right {
+  text-align: right;
+}
+
+.select-hover:hover {
+  color: white;
+  cursor: pointer;
+}
+
 @media only screen and (hover: none) and (orientation: portrait) {
   body {
     background-image: url(./assets/images/Disneyland-small.jpg);
