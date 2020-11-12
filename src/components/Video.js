@@ -20,6 +20,7 @@ function VideoLink({ id, name }) {
 				<img
 					src={`https://img.youtube.com/vi/${id}/0.jpg`}
 					alt={`${name}`}
+					className='img-width'
 				/>
 			</Link>
 		</>
