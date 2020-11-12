@@ -18,6 +18,7 @@ const ridesData = [
 	{ id: 'lkndSvsv8wk', name: 'Storybook Land Canal Boats' },
 	{ id: 'v_Tf8UbrgDY', name: 'Casey Jr. Circus Train' },
 	{ id: 'lEnSP58RDKo', name: "Millennium Falcon: Smuggler's Run" },
+	{ id: 'kyXoOZjAt9k', name: 'Fireworks Show!!!' },
 ];
 
 export default ridesData;
