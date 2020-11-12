@@ -7,7 +7,7 @@ function Home() {
 			{ridesData.map(({ id, name }) => (
 				<div key={id}>
 					<h2 className='thumbnail-title'>{name}</h2>
-					<VideoLink id={id} />
+					<VideoLink id={id} name={name} />
 				</div>
 			))}
 		</div>

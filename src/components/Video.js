@@ -13,13 +13,13 @@ function Video({ id }) {
 	);
 }
 
-function VideoLink({ id }) {
+function VideoLink({ id, name }) {
 	return (
 		<>
 			<Link to={`/ride/${id}`} className='item-margin'>
 				<img
 					src={`https://img.youtube.com/vi/${id}/0.jpg`}
-					alt='placeholder'
+					alt={`${name}`}
 				/>
 			</Link>
 		</>
