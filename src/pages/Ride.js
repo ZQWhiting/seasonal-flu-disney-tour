@@ -17,7 +17,7 @@ function Ride() {
 
 			<div className='flex align-column'>
 				<div className='video'>
-					<Video id={id} />
+					<Video id={id} name={name} />
 				</div>
 			</div>
 		</div>
